@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="de,en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Nordmöve Möbel</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Webseiten-Logo" height="50">
+        </div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">Über uns</a>
+            <a href="services.html">Dienstleistungen</a>
+            <a href="contact.html">Kontakt</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Nordmöve Möbel</h1>
+        <p>FAQ - Häufig gestellte Fragen</p>
+
+        <div class="faq-container">
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleAnswer('answer1')">
+                    1. Wie kann ich eine Bestellung aufgeben?
+                    <span class="faq-toggle">+</span>
+                </div>
+                <div class="faq-answer" id="answer1">
+                    Um eine Bestellung aufzugeben, wählen Sie das Produkt Ihrer Wahl, legen Sie es in den Warenkorb und
+                    folgen
+                    Sie dem Bestellprozess. Sie werden durch Eingabe Ihrer Liefer- und Zahlungsinformationen zur
+                    Bestätigung
+                    Ihrer Bestellung geführt.
+                </div>
+            </div>
+            <!-- Wiederhole das .faq-item für jede Frage/Antwort-Paarung -->
+        </div>
+        <div class="faq-container">
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleAnswer('answer2')">
+                    2. Welche Zahlungsmethoden werden akzeptiert?
+                    <span class="faq-toggle">+</span>
+                </div>
+                <div class="faq-answer" id="answer2">
+                    Wir akzeptieren [Zahlungsmethoden einfügen, z.B. Kreditkarten, PayPal, Banküberweisung]. Alle
+                    Zahlungen
+                    werden über eine sichere Verbindung verarbeitet.
+                </div>
+            </div>
+            <!-- Wiederhole das .faq-item für jede Frage/Antwort-Paarung -->
+        </div>
+        <div class="faq-container">
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleAnswer('answer3')">
+                    3. Wie lange dauert der Versand?
+
+                    <span class="faq-toggle">+</span>
+                </div>
+                <div class="faq-answer" id="answer3">
+                    Die Standardlieferzeit beträgt [Zeitraum einfügen, z.B. 3-5 Werktage]. Für internationale
+                    Lieferungen kann
+                    die Lieferzeit variieren.
+
+                </div>
+            </div>
+            <!-- Wiederhole das .faq-item für jede Frage/Antwort-Paarung -->
+        </div>
+        <div class="faq-container">
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleAnswer('answer 4')">
+                    4. Kann ich meine Bestellung stornieren oder ändern?
+
+                    <span class="faq-toggle">+</span>
+                </div>
+                <div class="faq-answer" id="answer4">
+                    Bestellungen können innerhalb von [Zeitraum einfügen, z.B. 24 Stunden] nach Aufgabe storniert oder
+                    geändert
+                    werden. Kontaktieren Sie uns dafür bitte über [Kontaktmethode einfügen, z.B. E-Mail, Telefon].
+                </div>
+            </div>
+            <!-- Wiederhole das .faq-item für jede Frage/Antwort-Paarung -->
+        </div>
+        <div class="faq-container">
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleAnswer('answer5')">
+                    5. Wie kann ich den Status meiner Bestellung verfolgen?
+
+
+                    <span class="faq-toggle">+</span>
+                </div>
+                <div class="faq-answer" id="answer5">
+
+                    Nach dem Versand Ihrer Bestellung erhalten Sie eine E-Mail mit einer Sendungsverfolgungsnummer. Mit
+                    dieser
+                    Nummer können Sie den Lieferstatus auf der Website des Versanddienstleisters verfolgen.
+
+                </div>
+            </div>
+            <!-- Wiederhole das .faq-item für jede Frage/Antwort-Paarung -->
+        </div>
+        <div class="faq-container">
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleAnswer('answer6')">
+                    6. Was mache ich, wenn ich ein defektes Produkt erhalten habe?
+
+                    <span class="faq-toggle">+</span>
+                </div>
+                <div class="faq-answer" id="answer6">
+
+                    Wenn Sie ein beschädigtes oder defektes Produkt erhalten haben, kontaktieren Sie uns bitte umgehend
+                    über
+                    [Kontaktmethode einfügen]. Wir werden das Problem so schnell wie möglich lösen.
+                </div>
+            </div>
+            <!-- Wiederhole das .faq-item für jede Frage/Antwort-Paarung -->
+        </div>
+        <div class="faq-container">
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleAnswer('answer7')">
+                    7. Kann man Geschenkgutscheine erwerben ?
+                    <span class="faq-toggle">+</span>
+                </div>
+                <div class="faq-answer" id="answer7">
+                    Ja, wir bieten Geschenkgutscheine in verschiedenen Werten an. Diese können auf unserer Website
+                    erworben und
+                    beim Checkout eingelöst werden.
+                </div>
+            </div>
+            <!-- Wiederhole das .faq-item für jede Frage/Antwort-Paarung -->
+        </div>
+        <div class="faq-container">
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleAnswer('answer8')">
+                    8. Wie kann ich euch kontaktieren?
+                    <span class="faq-toggle">+</span>
+                </div>
+                <div class="faq-answer" id="answer8">
+                    Für Fragen oder Anmerkungen erreichen Sie uns über [Kontaktmethoden einfügen, z.B. unser
+                    Kontaktformular,
+                    E-Mail, Telefonnummer]. Wir bemühen uns, alle Anfragen innerhalb von [Zeitraum einfügen, z.B. 24
+                    Stunden] zu
+                    beantworten.
+                </div>
+            </div>
+            <!-- Wiederhole das .faq-item für jede Frage/Antwort-Paarung -->
+        </div>
+        <script src="script+faq.js"></script>
+    </main>
+
+</body>
+<footer>
+    <div class="footer-content">
+        <div class="footer-section">
+            <h4>Unternehmen</h4>
+            <p>Musterfirma GmbH</p>
+            <p>Straße 123</p>
+            <p>12345 Stadt, Land</p>
+        </div>
+        <div class="footer-section">
+            <h4>Kontakt</h4>
+            <p>Email: info@musterfirma.de</p>
+            <p>Tel: 01234 567890</p>
+        </div>
+        <div class="footer-section">
+            <h4>Rechtliches</h4>
+            <ul>
+                <li><a href="impressum.html">Impressum</a></li>
+                <li><a href="datenschutz.html">Datenschutzerklärung</a></li>
+                <li><a href="agb.html">AGB</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2024 Musterfirma GmbH. Alle Rechte vorbehalten.</p>
+    </div>
+</footer>
+
+</html>
